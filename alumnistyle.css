@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: rgb(163, 191, 255);
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 0px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* nav bar links */
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    background: rgb(117, 172, 255);
+    color: blue;
+    border-radius: 5px;
+}
+
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: lavender;
+}
+
+section {
+    background-color: lavenderblush;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ section .section-content h1{
+    color: black;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+
+ section .section-content h2{
+    color: gray;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+
+ section img{
+    height: 600px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadable-forms h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#daf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.downloadable-forms a {
+    text-decoration: none; 
+    background: rgb(216, 216, 253); 
+    color: black;
+    font-size: 30px;
+    padding: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(163, 191, 255);
+    cursor: pointer;    
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer {
+    background: lavender;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-row  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.footer-col h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*gapsa tibaghak*/
+.footer-col ul li {
+    margin: 2px 0;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-col ul li a:hover {
+    color: darkblue;
+}
+
+.footer-col form {
+    margin-top: 10px;
+}
+
+.footer-col input {
+    padding: 5px;
+    border: none;
+}
+
+.footer-col button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-col button:hover {
+    background: gray;
+}
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:che {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block
+    }
+
+
+}
